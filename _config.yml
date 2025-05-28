@@ -58,8 +58,8 @@ content:
           - Analyzed data from 20+ machines using SQL to identify anomalies and optimize production planning.
           - Built Power BI dashboards for real-time monitoring of key KPIs across manufacturing teams.
           - Reduced inspection effort by 10% by designing data-driven decision rules.
-          
-     - layout: left
+    
+      - layout: left
         title: Northeast and Yilan Coast National Scenic Area Administration
         sub_title: Data Analyst Intern
         caption: Feb 2023 – Jun 2023
