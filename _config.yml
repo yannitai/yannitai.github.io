@@ -1,5 +1,5 @@
 # Site
-repository: sproogen/resume-theme
+repository: yannitai/yannitai.github.io
 favicon: images/favicon.ico
 
 # Content configuration version
@@ -15,50 +15,35 @@ website: https://github.com/yannitai
 darkmode: false
 
 # Social links
-github_username:  yannitai
+github_username: yannitai
 linkedin_username: yannitai
-# xing_username: jekyll
-# pinterest_username: jekyll
-# youtube_username: globalmtb
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
 additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
+  - title: itsgoingto.be
+    icon: fas fa-globe
+    url: https://www.itsgoingto.be
 
 # About Section
-# about_title: About Me
 about_profile_image: images/profile.jpg
-about_content: | # this will include new lines to allow paragraphs
+about_content: | 
   I’m a recent graduate from the University of Michigan with a master’s degree in Applied Statistics and a passion for solving business problems through data. I bring hands-on experience in SQL, Python, Power BI, and Tableau, developed through internships and academic projects in time series forecasting, sentiment analysis, and machine learning.
 
   I am most skilled in: <mark>SQL</mark>, <mark>Python</mark>, <mark>Tableau</mark>, <mark>A/B Testing</mark>, and <mark>Statistical Modeling</mark>
 
 content:
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Experience
+    layout: list
     content:
       - layout: left
         title: TSMC (Taiwan Semiconductor Manufacturing Company)
         sub_title: Data Analytics Intern – Intelligent Manufacturing
-        caption: June 2024 - Aug 2024
-        description: | # this will include new lines to allow paragraphs
+        caption: June 2024 – Aug 2024
+        description: |
           - Analyzed data from 20+ machines using SQL to identify anomalies and optimize production planning.
           - Built Power BI dashboards for real-time monitoring of key KPIs across manufacturing teams.
           - Reduced inspection effort by 10% by designing data-driven decision rules.
-    
+
       - layout: left
         title: Northeast and Yilan Coast National Scenic Area Administration
         sub_title: Data Analyst Intern
@@ -75,67 +60,5 @@ content:
           - Built Python ETL pipelines to process 60,000+ financial news articles for stock prediction models.
           - Developed 10+ time series models and an improved credit scoring method using weighted regression.
 
-
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: University of Michigan
-        sub_title: M.S. in Applied Statistics
-        caption: Sep 2023 – May 2025
-        description: |
-          Relevant Coursework: Statistical Learning, Data Science in Python, Data Management, Database Design
-
-      - layout: left
-        title: National Cheng Kung University
-        sub_title: B.B.A. in Statistics
-        caption: Sep 2018 – Jan 2023
-        description: |
-          Relevant Coursework: Regression, Time Series, Experimental Design, Multivariate Analysis, Machine Learning
-          Award: National Undergraduate Research Fellowship
-          
- - title: Projects
-    layout: list
-    content:
-      - layout: top
-        title: Passenger Transport Prediction
-        caption: Apr – May 2024
-        description: |
-          - Conducted EDA on 13,000+ passenger records using Python.
-          - Achieved 80.3% accuracy using ensemble models (Voting Classifier).
-
-      - layout: top
-        title: Stock Market Forecasting Using Deep Learning and NLP
-        caption: Jul 2022 – Feb 2023
-        description: |
-          - Extracted market sentiment from 60,000+ financial news articles.
-          - Improved TWII forecasting accuracy by 30% using ARIMA and LSTM models.
-          - Integrated COVID-19 and sentiment indicators to enhance performance.
-
-      - layout: top
-        title: Kaggle Spaceship Titanic Competition
-        link: https://github.com/yannitai/Spaceship_Titanic_Kaggle_Competition.git
-        description: |
-          Participated in Kaggle competition to predict passenger survival. Applied data cleaning, feature engineering, and ensemble modeling.
-
-  - title: Skills
-    layout: text
-    content: |
-      - <mark>Languages & Tools:</mark> SQL, Python, R, Excel, Tableau, Power BI  
-      - <mark>Data Engineering:</mark> ETL, Data Modeling, Data Wrangling  
-      - <mark>Analytics:</mark> Statistical Analysis, A/B Testing, Time Series Modeling, Machine Learning
-
-
-# Footer
-footer_show_references: true
-# references_title: References on request (Override references text)
-
-# Build settings
-remote_theme: sproogen/resume-theme
-
-sass:
-  sass_dir: _sass
-  style: compressed
-
-plugins:
- - jekyll-seo-tag
+  - title: Education
+    layout:
