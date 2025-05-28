@@ -60,7 +60,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title:  TSMC (Taiwan Semiconductor Manufacturing Company)
+        title:  TSMC
         # link: boringcompany.com
         # link_text: boringcompany.com
         sub_title: Data Analytics Intern – Intelligent Manufacturing
@@ -71,7 +71,32 @@ content:
           - Analyzed data from 20+ machines using SQL to identify anomalies and optimize production planning.
           - Built Power BI dashboards for real-time monitoring of key KPIs across manufacturing teams.
           - Reduced inspection effort by 10% by designing data-driven decision rules.
+      
+      - layout: left
+        title:  Northeast and Yilan Coast National Scenic Area Administration
+        # link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: Data Analyst Intern
+        caption: Feb 2023 – Jun 2023
+        # quote: >
+          # Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        description: | # this will include new lines to allow paragraphs
+          - Built an Excel tool that streamlined the organization of 2,000+ tourism records, cutting manual processing time by 20%.
+          - Uncovered insights into visitor trends and behavior to inform strategic planning.
 
+      - layout: left
+        title:  National Cheng Kung University
+        # link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: Research Assistant, Department of Statistics
+        caption:Sep 2021 – Mar 2023
+        # quote: >
+          # Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        description: | # this will include new lines to allow paragraphs
+          - Developed Python-based ETL pipelines to collect and process 60,000+ financial news records, streamlining data preparation for stock market research.
+          - Built 10+ time series models to forecast stock price trends, resulting in improved accuracy and analysis efficiency.
+          - Refined an alternative credit scoring model by applying weighted multiple regression, increasing predictive reliability and supporting better decisions..
+          
 
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
