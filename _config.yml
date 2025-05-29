@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Yan-Ni (Annie) Tai
-title: Data Analyst / Applied Statistics Master's Student
+title: Data Analyst |  UMich Applied Statistics Graduate 〽️💙
 email: yannitai@umich.edu
 website: https://github.com/yannitai
 
@@ -31,9 +31,9 @@ linkedin_username: yannitai
 
 # Additional icon links
 additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
+#- title: itsgoingto.be
+#  icon: fas fa-globe
+#  url: https://www.itsgoingto.be
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -113,7 +113,7 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          Leveraged **EDA**, **scikit-learn**, and **ensemble learning** to engineer end-to-end predictive workflows on transport data.
+          Leveraged EDA, scikit-learn, and ensemble learning to engineer end-to-end predictive workflows on transport data.
         description: | # this will include new lines to allow paragraphs
           - Identified key patterns in demographics and spending behavior by conducting exploratory data analysis (EDA) on 13,000+ passenger records using Python, supporting data-driven modeling decisions.
           - Achieved 80.3% prediction accuracy by developing end-to-end machine learning pipelines using scikit-learn and applying ensemble methods (Voting Classifier).
@@ -145,14 +145,28 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: University of Michigan — Ann Arbor 
+        title: University of Michigan 
         caption: 2023 - 2025
         sub_title: M.S. in Applied Statistics 
         #quote: >
          # Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
+          - GPA: 3.85/4.0
           - Relevant Coursework: Statistical learning, Data Management and Analysis, Data Science in Python, Database Design
 
+      - layout: left
+        title: National Cheng Kung University  
+        caption: 2018 - 2023
+        sub_title: B.B.A in Statistics
+        #quote: >
+         # Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        description: | # this will include new lines to allow paragraphs
+          - GPA: 3.88/4.0
+          - Dean's List / National Undergraduate Research Fellowship
+          - Relevant Coursework: Regression, Multivariate Analysis, Time Series Analysis, Experimental Design, Machine Learning
+
+
+    
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
