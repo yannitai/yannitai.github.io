@@ -65,8 +65,8 @@ content:
         # link_text: boringcompany.com
         sub_title: Data Analytics Intern – Intelligent Manufacturing
         caption: June 2024 – Aug 2024
-        # quote: >
-          # Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        quote: >
+          Leveraging SQL, Power BI, and manufacturing KPIs, I turned over **20 machines’** raw output into data-driven strategies that improved efficiency and reduced inspection rate by 10%.
         description: | # this will include new lines to allow paragraphs
           - Analyzed data from 20+ machines using SQL to identify anomalies and optimize production planning.
           - Built Power BI dashboards for real-time monitoring of key KPIs across manufacturing teams.
@@ -88,10 +88,10 @@ content:
         title:  National Cheng Kung University
         # link: boringcompany.com
         # link_text: boringcompany.com
-        sub_title: Research Assistant, Department of Statistics
+        sub_title: Research Assistant
         caption: Sep 2021 – Mar 2023
         # quote: >
-          # Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+          # Applied **Python**, **ETL automation**, and **advanced statistical modeling** to turn financial news into actionable forecasts.
         description: | # this will include new lines to allow paragraphs
           - Developed Python-based ETL pipelines to collect and process 60,000+ financial news records, streamlining data preparation for stock market research.
           - Built 10+ time series models to forecast stock price trends, resulting in improved accuracy and analysis efficiency.
@@ -102,9 +102,9 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
+        title: Passenger Transport Prediction
+        link: https://github.com/yannitai/Spaceship_Titanic_Kaggle_Competition.git
+        link_text: Spaceship_Titanic_Kaggle_Competition
         additional_links:
           - title:  sproogen/modern-resume-theme
             icon: fab fa-github
@@ -113,10 +113,10 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+          Leveraged **EDA**, **scikit-learn**, and **ensemble learning** to engineer end-to-end predictive workflows on transport data.
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-
+          - Identified key patterns in demographics and spending behavior by conducting exploratory data analysis (EDA) on 13,000+ passenger records using Python, supporting data-driven modeling decisions.
+          - Achieved 80.3% prediction accuracy by developing end-to-end machine learning pipelines using scikit-learn and applying ensemble methods (Voting Classifier).
 
 
   - title: Education # Title for the section
