@@ -66,7 +66,7 @@ content:
         sub_title: Data Analytics Intern – Intelligent Manufacturing
         caption: June 2024 – Aug 2024
         quote: >
-          Leveraging SQL, Power BI, and manufacturing KPIs, I turned over **20 machines’** raw output into data-driven strategies that improved efficiency and reduced inspection rate by 10%.
+          Leveraging SQL, Power BI, and manufacturing KPIs, I turned over 20 machines’ raw output into data-driven strategies that improved efficiency and reduced inspection rate by 10%.
         description: | # this will include new lines to allow paragraphs
           - Analyzed data from 20+ machines using SQL to identify anomalies and optimize production planning.
           - Built Power BI dashboards for real-time monitoring of key KPIs across manufacturing teams.
@@ -91,11 +91,11 @@ content:
         sub_title: Research Assistant
         caption: Sep 2021 – Mar 2023
         # quote: >
-          # Applied **Python**, **ETL automation**, and **advanced statistical modeling** to turn financial news into actionable forecasts.
+          # Applied Python, ETL automation, and advanced statistical modeling to turn financial news into actionable forecasts.
         description: | # this will include new lines to allow paragraphs
           - Developed Python-based ETL pipelines to collect and process 60,000+ financial news records, streamlining data preparation for stock market research.
           - Built 10+ time series models to forecast stock price trends, resulting in improved accuracy and analysis efficiency.
-          - Refined an alternative credit scoring model by applying weighted multiple regression, increasing predictive reliability and supporting better decisions..
+          - Refined an alternative credit scoring model by applying weighted multiple regression, increasing predictive reliability and supporting better decisions.
           
 
   - title: Projects # Title for the section
@@ -117,33 +117,52 @@ content:
         description: | # this will include new lines to allow paragraphs
           - Identified key patterns in demographics and spending behavior by conducting exploratory data analysis (EDA) on 13,000+ passenger records using Python, supporting data-driven modeling decisions.
           - Achieved 80.3% prediction accuracy by developing end-to-end machine learning pipelines using scikit-learn and applying ensemble methods (Voting Classifier).
+          
+      - layout: top-middle
+        title: Stock Market Analysis Using Deep Learning and NLP During the Covid-19 Pandemic 
+        link: https://github.com/yannitai/stock_covid_nlp_analysis.git
+        link_text: Stock_Market_Analysis
+        additional_links:
+          - title:  sproogen/modern-resume-theme
+            icon: fab fa-github
+            url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          Combined NLP, time series modeling, and COVID-19 data to enhance stock market forecasting, achieving a 30% improvement in trend prediction accuracy with LSTM models.
+        description: | # this will include new lines to allow paragraphs
+          - Scraped 60,000+ financial news articles and labeled sentiment using CKIP Tagger and a sentiment dictionary.
+          - Merged sentiment, COVID-19 case counts, and technical indicators (MA, BIAS, momentum) for feature engineering.
+          - Built ARIMA and LSTM models to forecast stock trends on TWII and sector indices.
+          - Used expanding window cross-validation; LSTM + sentiment improved directional accuracy by 30%.
+          - Demonstrated that combining financial NLP and pandemic data enhances market prediction during crises.
+        
+        
 
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        title: University of Michigan — Ann Arbor 
+        caption: 2023 - 2025
+        sub_title: M.S. in Applied Statistics 
+        #quote: >
+         # Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
-
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+          - Relevant Coursework: Statistical learning, Data Management and Analysis, Data Science in Python, Database Design
 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+      Alongside my interests in data analysis, some of my other interests and hobbies are:
+      - NBA
+      - Working Out
+      - Surfing
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+    #  Look at this cool image  
+     # ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
